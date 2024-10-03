@@ -1,0 +1,262 @@
+[
+    {
+      "name": "_id",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "time_stamp",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ip",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name" : "city_name",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name" : "country_code",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name" : "country_name",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name" : "latitude",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name" : "longitude",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name" : "region_name",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name" : "timezone",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name" : "zipcode",
+      "type" : "STRING",
+      "mode" : "NULLABLE"
+    },
+    {
+      "name": "user_agent",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "resolution",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "user_id_db",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "device_id",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "api_version",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "store_id",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "local_time",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "show_recommendation",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "current_url",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "referrer_url",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "email_address",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "collection",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "price",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "currency",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "is_paypal",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "option",
+      "type": "JSON",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "order_id",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "cart_products",
+      "type": "RECORD",
+      "mode": "REPEATED",
+      "fields": [
+        {
+          "name": "product_id",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+        },
+        {
+          "name": "amount",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+        },
+        {
+          "name": "price",
+          "type": "STRING",
+          "mode": "NULLABLE"
+        },
+        {
+          "name": "currency",
+          "type": "STRING",
+          "mode": "NULLABLE"
+        },
+        {
+          "name": "option",
+          "type": "RECORD",
+          "mode": "REPEATED",
+          "fields": [
+            {
+              "name": "option_label",
+              "type": "STRING",
+              "mode": "NULLABLE"
+            },
+            {
+              "name": "option_id",
+              "type": "INTEGER",
+              "mode": "NULLABLE"
+            },
+            {
+              "name": "value_label",
+              "type": "STRING",
+              "mode": "NULLABLE"
+            },
+            {
+              "name": "value_id",
+              "type": "INTEGER",
+              "mode": "NULLABLE"
+            },
+            {
+              "name": "quality",
+              "type": "STRING",
+              "mode": "NULLABLE"
+            },
+            {
+              "name": "quality_label",
+              "type": "STRING",
+              "mode": "NULLABLE"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "recommendation_product_id",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "recommendation_product_position",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "recommendation_clicked_position",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "cat_id",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "collect_id",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "viewing_product_id",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "key_search",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "recommendation",
+      "type": "BOOLEAN",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "utm_source",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "utm_medium",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    }
+  ]

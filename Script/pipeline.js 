@@ -1,0 +1,27 @@
+const pipeline = [
+  {
+    $match: {
+      product_id: { $ne: null }
+    }
+  },
+  {
+    $group: {
+      _id: "$product_id",
+      current_urls: {
+        $addToSet: "$current_url"
+      }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      product_id: "$_id",
+      current_urls: 1
+    }
+  }
+];
+
+const cursor = db.summary.aggregate(pipeline);
+while (cursor.hasNext()) {
+  printjson(cursor.next());
+}

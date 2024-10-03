@@ -1,0 +1,117 @@
+8.10.0 2023-04-19
+	* Added support for district, ASN and AS.
+
+8.9.0 2022-10-14
+	* Added Country and Region class.
+
+8.8.1 2022-08-12
+	* Updated the homepage link.
+
+8.8.0 2022-06-22
+	* Reduced file I/O.
+
+8.7.4 2022-05-12
+	* Fixed GitHub issue #20.
+
+8.7.3 2022-04-15
+	* Added test cases for IP2LocationIPTools class.
+
+8.7.2 2022-03-21
+	* Fixed GitHub issue #19.
+
+8.7.1 2022-03-17
+	* Updated readme.md.
+
+8.7.0 2022-03-16
+	* Added iptools class and the related tests.
+
+8.6.4 2021-11-09
+	* Removed debug line.
+
+8.6.3 2021-11-08
+	* Minor fix
+
+8.6.2 2021-07-06
+	* Minor fix
+
+8.6.1 2021-07-06
+	* Minor fix
+
+8.6.0 2021-06-03
+	* Support IP2Location DB25.
+	* New function get_address_type().
+	* New function get_category().
+
+8.5.1 2020-10-21
+	* Support SSL option in Web Service calling.
+
+8.5.0 2020-10-21
+	* Support IP2Location Web Service.
+
+8.4.1 2019-10-04
+	* Reduce file I/O to improve query performance.
+
+8.4.0 2019-10-04
+	* Optimized the library performance.
+
+8.3.0 2019-08-05
+	* Added a script to provide IP address lookup directly in shell commandline.
+	* New mode to load and open database BIN file.
+
+8.2.0 2019-08-05
+	* Added fixes for returned results format.
+
+8.1.0 2019-07-03
+	* Added support for 6to4 and Teredo.
+
+8.0.0 2016-07-11
+	* Support indexed BIN files
+	
+7.0.4 2016-01-27
+	* Bumped up to be synced with pypi version
+	
+7.0.1 2016-01-22
+	* IP2Location object can be closed and can be used as Context Manager (vstoykov)
+	
+7.0.0 2014-08-07
+	* Support IPv6 records
+
+6.0.0 2013-05-23
+	* Ported into pure python.
+	* Remove IP2Location.c library.
+	
+5.0.0	2013-04-16
+	* Support IP2Location DB21 - DB24
+	* New function get_elevation()
+	* New function get_usage_type()
+
+4.0.0	2010-08-12
+	* Support IP2Location DB19 - DB20
+	* New function get_mcc()
+	* New function get_mnc()
+	* New function get_mobile_brand()
+
+3.0.0	2008-08-13
+	* Support IP2Location DB1 - DB14
+	* New function get_idd_code()
+	* New function get_area_code()
+	* New function get_weather_code()
+	* New function get_weather_name()
+
+2.1.1	2006-11-17
+	* Initial release
+	* Support IP2Location IPv6
+	* Support IP2Location DB1 - DB14
+	* New function open()             
+	* New function get_country_short()
+	* New function get_country_long() 
+	* New function get_region()       
+	* New function get_city()         
+	* New function get_isp()          
+	* New function get_latitude()     
+	* New function get_longitude()    
+	* New function get_domain()       
+	* New function get_zipcode()
+	* New function get_timezone()
+	* New function get_netspeed()
+	* New function get_all()       
