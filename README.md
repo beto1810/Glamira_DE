@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [System Architecture](#system-architecture)
+- [Looker Report](https://lookerstudio.google.com/s/sMcQWkr59o8)
 
 ## Introduction
 
